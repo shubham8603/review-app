@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column; /* Stack inputs vertically */
+    margin-bottom: 20px; /* Space below the form */
+  }
+  
+  input[type="text"],
+  textarea {
+    margin-bottom: 10px; /* Space between inputs */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  #starRating {
+    margin-bottom: 10px; /* Space below the star rating */
+  }
+  
+  #starRating span {
+    font-size: 24px;
+    cursor: pointer;
+    color: gray;
+  }
+  
+  #starRating .selected {
+    color: gold; /* Highlight selected stars */
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  #averageRating {
+    margin-top: 20px; /* Space above average rating display */
+  }
+  
+  .review {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
